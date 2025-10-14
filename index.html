@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Orbitron:wght@400..900&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <title>Koenix Store</title>
+</head>
+
+<body>
+    <header>
+        <div class="logo">Koenix Store</div>
+        <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Produtos</a></li>
+                <li><a href="login.html" target="_blank" rel="next" >Login</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+
+        <div class="btn-menu" id="btn-menu">
+            <i class="bi bi-list"></i><!--icon-menu-->
+        </div><!--menu-abrir-->
+        
+          
+        <div class="menu-mobile" id="menu-mobile">
+                <div class="btn-fechar">
+                    <i class="bi bi-x-lg"></i><!--icon-fechar-->
+                </div><!--menu-fechar-->
+            <nav>
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">Produtos</a></li>
+                <li><a href="login.html" target="_blank" rel="next">Login</a></li>
+                <li><a href="#contact">Contatos</a></li>
+            </ul>
+        </nav>
+        </div>
+        <div class="overlay-menu" id="overlay-menu">
+        </div>
+
+    </header>
+    <main class="container">
+        <div class="tech-circle">
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+            <div class="circle"></div>
+        </div>
+
+        <div class="list">
+            <div class="item active">
+
+                <div class="product-img">
+                    <img src="img/apple-watch.png" alt="Produto 1">
+                </div>
+                <div class="content">
+
+                    <p class="product-tag">Novo Lançamento</p>
+                    <p class="product-name">Apple Watch Series 10</p>
+                    <p class="description">O lançamento mais esperado da Apple chegou! O Apple Watch Series 10 combina
+                        design elegante, desempenho incrível e recursos inteligentes que facilitam sua rotina. Acompanhe
+                        sua saúde em tempo real, receba notificações, responda mensagens e mantenha-se conectado com
+                        estilo e praticidade.</p>
+
+                    <button class="btn">Saiba Mais</button>
+
+                </div>
+            </div>
+
+            <div class="item">
+
+                <div class="product-img">
+                    <img src="img/fone de ouvidos.png" alt="Produto 2">
+                </div>
+                <div class="content">
+
+                    <p class="product-tag">Som Premium</p>
+                    <p class="product-name">Air Pods Max</p>
+                    <p class="description">Descubra a liberdade do áudio com este fone de ouvido Bluetooth sem fio.
+                        Design moderno, conforto absoluto e tecnologia avançada para um som nítido e envolvente. Com
+                        cancelamento de ruído, bateria de longa duração e conexão estável, ele é perfeito para música,
+                        trabalho e lazer.
+                        Estilo, conforto e qualidade sonora em um só fone.</p>
+
+                    <button class="btn">Saiba Mais</button>
+
+                </div>
+            </div>
+
+            <div class="item">
+                <div class="product-img">
+                    <img src="img/Smartphones.png" alt="Produto 3">
+                </div>
+                <div class="content">
+
+                    <p class="product-tag">Alta Performace</p>
+                    <p class="product-name">Smartphone Iphone 15</p>
+                    <p class="description">Um celular elegante e veloz, feito para quem busca desempenho, estilo e
+                        inovação. Tela de alta resolução, câmera avançada e bateria duradoura que acompanha o seu ritmo.
+                        Conexão rápida e sistema inteligente garantem praticidade no dia a dia. Tecnologia de ponta que
+                        cabe no seu bolso.</p>
+
+                    <button class="btn">Saiba Mais</button>
+
+                </div>
+
+            </div>
+
+            <div class="arrows">
+                <button class="arrow-btn" id="prev">
+                    <i class="bi bi-caret-left"></i>
+                </button>
+                <button class="arrow-btn" id="next">
+                    <i class="bi bi-caret-right"></i>
+                </button>
+            </div>
+
+            <div class="indicators">
+                <div class="numbers">01</div>
+                <div class="dots">
+                    <div class="dot active"></div>
+                    <div class="dot"></div>
+                    <div class="dot"></div>
+                </div>
+            </div>
+    </main>
+</body>
+    <script src="script.js"></script>
+
+</html>
